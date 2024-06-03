@@ -1,9 +1,7 @@
-const questions = document.querySelectorAll('.question');
 
-// Add click event listener to each question
+const questions = document.querySelectorAll('.question')
 questions.forEach(question => {
-  question.addEventListener('click', function() {
-    // Toggle the 'active' class on the corresponding answer
-    this.nextElementSibling.classList.toggle('active');
-  });
-});
+    question.addEventListener('click', function(){
+        this.nextElementSibling.classList.toggle('active')
+    })
+})

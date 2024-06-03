@@ -16,24 +16,21 @@ p{
 
 }
 
-.faq-item {
+
+.faq-item{
     margin-bottom: 10px;
-
     text-align: center;
-  }
-
-  .question {
+}
+.question{
     font-weight: bold;
     cursor: pointer;
     font-size: 8px;
-  }
-
-  .answer {
+}
+.answer{
     display: none;
     font-size: 6px;
     margin-top: 5px;
-  }
-
-  .active {
+}
+.active{
     display: block;
-  }
+}
