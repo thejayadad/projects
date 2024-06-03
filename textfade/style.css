@@ -22,11 +22,10 @@
   animation: fadeInOut 5s infinite; 
 }
 
-@keyframes fadeInOut {
+@keyframes fadeInOut{
   0%, 100% {
     opacity: 0;
-  }
-  50% {
+  } 50% {
     opacity: 1;
   }
 }
