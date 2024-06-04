@@ -1,13 +1,14 @@
   /* Style for the navigation menu */
   
-  
+  body{
+    background-color: #222;
+  }
   .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    background-color: #222;
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     max-width: 400px;
     margin: auto;
   }
