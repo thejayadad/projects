@@ -1,0 +1,18 @@
+.container {
+    max-width: 200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-top: 50px;
+  }
+
+  /* Style for the hidden content */
+  .more-content {
+    display: none;
+  }
+
+  /* Style for the "Read More" link */
+  .read-more {
+    color: blue;
+    cursor: pointer;
+  }
