@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrollbar from appearing during animation */
+    background-color: #fff; /* Initial background color */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+    animation: fadeOut 2s forwards; /* Animation for content fade-out */
+  }
+
+  /* Keyframes for fading out content */
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .loader p {
+    font-size: 24px;
+    color: #333;
+  }
+
+  /* Animation for fading in loader */
+  .loader.fade-in {
+    animation: fadeIn 2s forwards;
+  }
+
+  /* Keyframes for fading in loader */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  /* Additional styles for loader */
+  .loader p {
+    font-size: 24px;
+    color: #333;
+  }
+
+  /* Styles for hero section */
+  .hero {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    background-color: #f5f5f5;
+  }
+
+  /* Keyframes for fading in hero section */
+  @keyframes fadeInHero {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

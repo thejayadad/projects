@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  h2 {
+    font-size: 12px;
+    font-family: cursive;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    border: none;
+    background-color: #987b05;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 6px 6px 12px #c5c5c5 -6px -6px 12px #ffffff;
+    overflow: hidden; /* Ensure the ::before pseudo-element stays within the button bounds */
+  }
+  
+  /* Button hover effect */
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially, the width is 0 */
+    height: 100%;
+    background-color: #ffcc00;
+    z-index: -1;
+    transition: width 0.3s ease; /* Only transition the width */
+  }
+  
+  button:hover::before {
+    width: 100%; /* Expand the width to 100% on hover */
+  }
